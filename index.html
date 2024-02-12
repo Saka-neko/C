@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="3.css">
+    <title>OPUデジタルキャンパスマップ</title>
+</head>
+<body>
+    <div class="mainlogo">
+    </div>
+    <div class="object">
+    <div class="search_engine">
+    <h2>制作中です。(｡-人-｡) ｺﾞﾒﾝﾈ</h2>
+    </div>
+<div class="searchbox">
+<input type="text" id="tx" placeholder="部屋番号を入力"><br>
+</div>
+<div class="search">
+<button onclick="ck()">サーチ！</button>
+</div>
+<script>
+function ck() {
+//実行する文字列変数
+let str;
+//テキストボックスに入力された数字を変数に格納
+let txt = document.getElementById("tx").value;
+//文字列が入った変数を数値に変換する
+let hikaku = parseInt(txt, 10);
+switch (hikaku) {
+case 3414: str = open( "https://saka-neko.github.io/3414/") ; break;
+//裏コマンド
+case 2222: str = open( "https://unicouniuni3.com/") ; break; 
+case 1111: str = open( "https://www.min-inuzukan.com/rankingIndex.php") ; break;
+case 1993: str = open( "https://www.oka-pu.ac.jp/") ; break;
+case 9107: str = open( "https://www2.kyujin-navi.com/GAKUGAI/login/login.asp") ; break;
+case 2100: str = open( "https://www.oka-pu.ac.jp/life/page-830/") ; break;
+//部室番号
+case 7: str = open( "https://twitter.com/opukeion7") ; break; //軽音楽部
+case 10: str = open( "https://twitter.com/opucaetla") ; break; //サイクリング部サエラ
+case 13: str = open("https://twitter.com/PZL0720") ; break; //学生支援団体PZL
+case 14: str = open( "https://twitter.com/opu_rec") ; break; //R.E.C.
+case 18: str = open( "https://twitter.com/OPU_CGDADA") ; break; //CG倶楽部DADA
+case 19: str = open( "https://twitter.com/himawari_opu") ; break; //ボランティア部ひまわり
+case 20: str = open( "https://twitter.com/qmeleon") ; break; //事業委員会 Qmeleon 
+case 21: str = open( "https://twitter.com/opu_caswnuts") ; break; //岡山県立大学映像部 Casw Nuts
+case 22: str = open( "https://twitter.com/opu_manken") ; break; //まんけん部
+case 24: str = open( "https://twitter.com/OPUpic24") ; break; //写真部
+case 26: str = open( "https://twitter.com/JR4ZUZ") ; break; //アマチュア無線部 AMC!
+}
+
+if (txt >= 100 && txt <= 200) {
+    window.open( "https://nekogazou.com/nekozuki30/", "_blank") ; //にゃんにゃん
+}
+else if (txt >= 200 && txt <= 400) {
+    window.open("https://www.neko-jirushi.com/nekosha/","_blank") ;//にゃん
+}
+}
+
+</script>
+</div>
+</body>
+</html>
